@@ -1,6 +1,6 @@
 import React from "react";
 import "./blog.css";
-import Image1 from "../../assets/blog-1.svg";
+import Image1 from "../../assets/blog1.jpg";
 import Image2 from "../../assets/blog-2.svg";
 const Blog = ()=> {
     return (
@@ -11,13 +11,13 @@ const Blog = ()=> {
                 <div className="blog__card">
                     <div className="blog__thumb">
                         <a href="#"><span className="blog__category">AI</span></a>
-                        <a href="#"><img src={Image1} alt=""  className="blog__img"/></a>
+                        <img src={Image1} alt=""  className="blog__img"/>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">L’Intelligence Artificielle et la Vie Privée : Une Tension Croissante
-                        </h3>
+                        <a href="https://www.linkedin.com/posts/mestaysserasma_ai-innovation-autonomoussystems-activity-7232625793879670784-r2e5?utm_source=share&utm_medium=member_desktop"><h3 className="blog__title">Can Machines Think and Act in Non-Human Ways? 🚀</h3>
+                        </a>
                         <div className="blog__meta">
-                            <span>12 March, 2024</span>
+                            <span>23 August, 2024</span>
                             <span className="blog__dot">.</span>
                             <span>Mestaysser Asma</span>
                         </div>
