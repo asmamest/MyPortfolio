@@ -20,6 +20,8 @@ const Portfolio = ()=> {
                 <span className="work__item" onClick={()=> filterItem("Web Development")}>Web Development</span>
                 <span className="work__item" onClick={()=> filterItem("C/C++")}>C/C++</span>
                 <span className="work__item" onClick={()=> filterItem("Python")}>Python</span>
+                <span className="work__item" onClick={()=> filterItem("Machine Learning Modeling")}>Machine Learning</span>
+
             </div>
 
             <div className="work__container grid">
@@ -34,6 +36,7 @@ const Portfolio = ()=> {
 
                             <span className="work__category">{category}</span>
                             <h3 className="work__title">{title}</h3>
+            
                             {/* <a href="#" className="work__button">
                                 <i className="icon-link work__button-icon"></i>
                             </a> */}
