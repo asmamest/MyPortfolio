@@ -16,7 +16,7 @@ const About = ()=> {
                         <p className="about__description">
                         I am a first-year student pursuing Computer Engineering at the National School of Engineers of Carthage (ENICarthage). Driven by a passion for technology and a curiosity for innovation, I am constantly exploring various aspects of computer science, from programming to software development. Through my studies and projects, I strive to blend creativity with technical rigor to tackle complex problems and deliver innovative solutions.
                         </p>
-                        <a href="" className="btn">Download CV</a>
+                        <a href="C:\Users\user\Documents\PRIVATE\Mestaysser Asma.pdf" className="btn">Download CV</a>
                     </div>
 
                     <div className="about__skills grid">
