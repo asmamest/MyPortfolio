@@ -16,8 +16,8 @@ const About = ()=> {
                         <p className="about__description">
                         I am a first-year student pursuing Computer Engineering at the National School of Engineers of Carthage (ENICarthage). Driven by a passion for technology and a curiosity for innovation, I am constantly exploring various aspects of computer science, from programming to software development. Through my studies and projects, I strive to blend creativity with technical rigor to tackle complex problems and deliver innovative solutions.
                         </p>
-                        <a href="https://drive.google.com/file/d/1jyA0h9u4TUS0JKWWdlTwThd8lg_BfepF/view?usp=sharing" className="btn">Download CV</a>
-                    </div>
+                        <a href="https://drive.google.com/uc?export=download&id=1jyA0h9u4TUS0JKWWdlTwThd8lg_BfepF" className="btn">Download CV</a>
+                        </div>
 
                     <div className="about__skills grid">
                         <div className="skills__data">
